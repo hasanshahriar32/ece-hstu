@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from 'next/link'
 
 export function Footer() {
   return (
@@ -43,7 +43,10 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/committee" className="text-sm text-muted-foreground hover:text-primary">
+                <Link
+                  href="/committee"
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
                   Committee
                 </Link>
               </li>
@@ -53,12 +56,18 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/faculty/research" className="text-sm text-muted-foreground hover:text-primary">
+                <Link
+                  href="/faculty/research"
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
                   Research
                 </Link>
               </li>
               <li>
-                <Link href="/faculty/publications" className="text-sm text-muted-foreground hover:text-primary">
+                <Link
+                  href="/faculty/publications"
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
                   Publications
                 </Link>
               </li>
@@ -84,7 +93,10 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/workshops" className="text-sm text-muted-foreground hover:text-primary">
+                <Link
+                  href="/workshops"
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
                   Workshops
                 </Link>
               </li>
@@ -94,7 +106,10 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/alumni/events" className="text-sm text-muted-foreground hover:text-primary">
+                <Link
+                  href="/alumni/events"
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
                   Alumni Events
                 </Link>
               </li>
@@ -104,7 +119,10 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/developer" className="text-sm text-muted-foreground hover:text-primary">
+                <Link
+                  href="/developer"
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
                   Developer Resources
                 </Link>
               </li>
@@ -115,7 +133,10 @@ export function Footer() {
             <h3 className="font-semibold text-lg mb-4">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/certificate" className="text-sm text-muted-foreground hover:text-primary">
+                <Link
+                  href="/certificate"
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
                   Certificate Generator
                 </Link>
               </li>
@@ -125,32 +146,50 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/user/profile" className="text-sm text-muted-foreground hover:text-primary">
+                <Link
+                  href="/user/profile"
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
                   My Profile
                 </Link>
               </li>
               <li>
-                <Link href="/user/achievements" className="text-sm text-muted-foreground hover:text-primary">
+                <Link
+                  href="/user/achievements"
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
                   My Achievements
                 </Link>
               </li>
               <li>
-                <Link href="/faculty/dashboard" className="text-sm text-muted-foreground hover:text-primary">
+                <Link
+                  href="/faculty/dashboard"
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
                   Faculty Dashboard
                 </Link>
               </li>
               <li>
-                <Link href="/alumni/dashboard" className="text-sm text-muted-foreground hover:text-primary">
+                <Link
+                  href="/alumni/dashboard"
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
                   Alumni Dashboard
                 </Link>
               </li>
               <li>
-                <Link href="/auth/login" className="text-sm text-muted-foreground hover:text-primary">
+                <Link
+                  href="/auth/login"
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
                   Sign In
                 </Link>
               </li>
               <li>
-                <Link href="/auth/register" className="text-sm text-muted-foreground hover:text-primary">
+                <Link
+                  href="/auth/register"
+                  className="text-sm text-muted-foreground hover:text-primary"
+                >
                   Register
                 </Link>
               </li>
@@ -178,4 +217,3 @@ export function Footer() {
     </footer>
   )
 }
-

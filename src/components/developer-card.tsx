@@ -1,9 +1,9 @@
-"use client"
+'use client'
 
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Code, Github } from "lucide-react"
+import Link from 'next/link'
+import { Button } from '@/components/ui/button'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import { Code, Github } from 'lucide-react'
 
 export function DeveloperCard() {
   return (
@@ -21,13 +21,15 @@ export function DeveloperCard() {
                   <AvatarFallback>SH</AvatarFallback>
                 </Avatar>
                 <div>
-                  <div className="uppercase tracking-wide text-sm text-primary font-semibold">Meet Our Developer</div>
+                  <div className="uppercase tracking-wide text-sm text-primary font-semibold">
+                    Meet Our Developer
+                  </div>
                   <h2 className="text-xl font-semibold">Shahriar Hasan</h2>
                 </div>
               </div>
               <p className="text-muted-foreground">
-                Full-stack software engineer, web security expert, and the talented developer behind the ECE Club
-                website. Learn more about his skills, experience, and projects.
+                Full-stack software engineer, web security expert, and the talented developer behind
+                the ECE Club website. Learn more about his skills, experience, and projects.
               </p>
               <div className="mt-4">
                 <Button asChild>
@@ -44,4 +46,3 @@ export function DeveloperCard() {
     </section>
   )
 }
-
