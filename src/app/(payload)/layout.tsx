@@ -23,9 +23,9 @@ const serverFunction: ServerFunctionClient = async function (args) {
 }
 
 const Layout = ({ children }: Args) => (
-  <Layout config={config} importMap={importMap} serverFunction={serverFunction}>
+  <RootLayout config={config} importMap={importMap} serverFunction={serverFunction}>
     {children}
-  </Layout>
+  </RootLayout>
 )
 
 export default Layout
